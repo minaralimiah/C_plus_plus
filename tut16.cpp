@@ -32,9 +32,9 @@ int main(){
     // swap_pointer(&x, &y); This will swap a and b using pointer reference 
 
     // swapReferenceVar(x, y); // This will swap a and b using pointer reference variables.
-    swapReferenceVar(x, y) = 786; 
+    swapReferenceVar(x, y) = 786;  
 
 
     cout<<"The value of x is "<<x<< " and the value of y is "<<y<<endl;
     return 0;
-}
+} //This is the change
