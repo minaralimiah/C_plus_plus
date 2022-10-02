@@ -3,10 +3,9 @@ using namespace std;
 
 int main(){
     string name;
-    cout<<"May I know your name:";
-    // cin>>name; only reads first word of my name
+    cout<<"May I know your name? ";
+    // cin>>name; It reads only the first word of name
     getline(cin,name);
-    cout<<"Your name is Mr."<<name;
-
+    cout<<"Welcome Mr."<<name<<endl;
     return 0;
 }
