@@ -16,7 +16,7 @@ using namespace std;
 //     return 0;
 // }
 
-int fun( int n )
+void fun( int n )
 {
     if (n>0)
     {
